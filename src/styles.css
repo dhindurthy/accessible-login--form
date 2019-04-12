@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+}
+.error-message {
+  color: #e96645;
+  font-size: 0.85em;
+}
+
+form {
+  display: flex;
+  border-radius: 0.85em;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+fieldset {
+  border-radius: 10px;
+  padding: 1em;
+}
+
+button {
+  border-radius: 0.5em;
+  margin: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 0.25em 0.75em;
+  font-size: 1em;
+  line-height: 1.5;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.85;
+}
+
+button.disabled {
+  color: black;
+  background-color: #ece4e2;
+  border-color: #ece4e2;
+  cursor: not-allowed;
+}
+
+.input-component {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+label {
+  margin-right: 0.85em;
+}
+.result {
+  display: flex;
+  margin: 1em;
+}
