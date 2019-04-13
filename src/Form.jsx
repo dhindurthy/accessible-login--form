@@ -89,7 +89,7 @@ class Form extends React.Component {
       <section>
         <form>
           <fieldset>
-            <legend>Sign In Form</legend>
+            <legend>Login</legend>
             <Input
               id="uname"
               label="User Name"
@@ -116,7 +116,7 @@ class Form extends React.Component {
               onClick={this.onClick}
               className={!isEnabled ? "disabled" : ""}
             >
-              Sign In
+              Log In
             </button>
           </fieldset>
         </form>
