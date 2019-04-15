@@ -7,7 +7,7 @@ function Input(props) {
         <label htmlFor={props.id}>{props.label}</label>
         <input
           id={props.id}
-          type={props.text}
+          type={props.type}
           value={props.inputValue}
           onChange={props.onChange}
           onBlur={props.onBlur}

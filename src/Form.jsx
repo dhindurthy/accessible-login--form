@@ -103,7 +103,7 @@ class Form extends React.Component {
             <Input
               id="pwd"
               label="Password"
-              type="text"
+              type="password"
               inputValue={this.state.pwdValue}
               onChange={this.onPwdChange}
               onBlur={this.onPwdBlur}
